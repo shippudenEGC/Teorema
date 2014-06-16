@@ -1,0 +1,278 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Teorema de Pitagoras</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Hipotenusa</a></li>
+            <li><a href="#page3">Cateto Adyacente</a></li>
+			<li><a href="#page4">Cateto Opuesto</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Shippuden</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Hipotenusa</h1>
+	</div>
+	<div data-role="content">	
+			
+    <script language="JavaScript">
+function narutokun(fechjl){
+fechjl = fechjl*fechjl;
+
+naped = fechjl;
+       
+}
+
+</script>		
+<script language="JavaScript">
+function edados(fechaf){
+		fechaf = fechaf*fechaf;
+
+ednap = fechaf;
+
+}
+
+</script>
+
+Cateto Opuesto
+<input type="number" name="cuadrgggo2" onblur="edados(this.value)" />
+
+Cateto Adyacente
+<input type="number" name="textfhgfgfghield" onblur="narutokun(this.value)" />
+
+
+
+<FORM>
+<script language="JavaScript">
+function totalmk(cop,cad){
+	
+	var letra=1;
+	var gh=cop*letra;
+	var totalfe=Math.sqrt(gh);
+
+	var hipotenusas=cad+cop;
+	var totales=Math.sqrt(hipotenusas);
+	var error=Math.sqrt(cad);
+	if((error==0)){
+		alert("El Cateto Opuesto Esta En Cero O Tiene Un Dato Erroneo");
+	}
+	else
+	{
+			
+	if((isNaN(totales))||(totalfe==0))
+	{
+	alert("El Cateto Adyacente Esta En Cero O Tiene Un Dato Erroneo");
+	}
+	else
+	{
+	alert("El Valor De La Hipotenusa Es: "+totales);
+	
+	}
+		}
+	
+	
+
+	
+}
+
+</script>
+<input name="buhhhhtton7" type="button" onclick="totalmk(naped,ednap)"value="Calcular Hipotenusa" />
+</FORM>
+	</div>
+	<div data-role="footer">
+		<h4>Shippuden</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Cateto Adyacente</h1>
+	</div>
+	<div data-role="content">	
+
+    <script language="JavaScript">
+function naruto5(fechj){
+fechj = fechj*fechj;
+
+nap = fechj;
+       
+}
+
+</script>		
+<script language="JavaScript">
+function edadh(fecha){
+		fecha = fecha*fecha;
+
+ed = fecha;
+
+}
+
+</script>
+
+Hipotenusa
+<input type="number" name="cuadro2t" onblur="edadh(this.value)" />
+
+Cateto Opuesto
+<input type="number" name="textfiehghld" onblur="naruto5(this.value)" />
+
+
+
+<FORM>
+<script language="JavaScript">
+function totaljh(co,hipotenusa){
+	
+	var letra=1;
+	var gh=co*letra;
+	var total2=Math.sqrt(gh);
+
+	var ca=hipotenusa-co;
+	var total=Math.sqrt(ca);
+	if(hipotenusa==0){
+		alert("La Hipotenusa Esta En Cero O Tiene Un Dato Erroneo");
+	}
+	else
+	{
+	if(co>=hipotenusa){
+		var gh2=Math.sqrt(hipotenusa);
+	
+		if((gh2==0)){
+				alert("Solo Debe Ingresar Numeros");
+		}
+		else
+		{alert("La Hipotenusa Es Igual O Menor Que El Cateto Opuesto");
+			
+		}
+		}
+		else
+		{
+			
+	if((isNaN(total))||(total2==0))
+	{
+	alert("El Cateto Opuesto Esta En Cero O Tiene Un Dato Erroneo");
+	}
+	else
+	{
+	alert("El Valor Del Cateto Adyacente Es: "+total);
+	
+	}
+		}
+	
+	}
+
+	
+}
+
+</script>
+<input name="butgfton2" type="button" onclick="totaljh(nap,ed)"value="Calcular Cateto Adyacente" />
+</FORM>			
+	</div>
+	<div data-role="footer">
+		<h4>Shippuden</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Cateto Opuesto</h1>
+	</div>
+	<div data-role="content">
+      <script language="JavaScript">
+			function naruto(fechj){
+fechj = fechj*fechj;
+
+nap = fechj;
+       
+}
+
+</script>		
+<script language="JavaScript">
+function edad(fecha){
+		fecha = fecha*fecha;
+
+ed = fecha;
+
+}
+
+</script>
+
+Hipotenusa
+<input type="number" name="cuadro2" onblur="edad(this.value)" />
+
+Cateto Adyacente
+<input type="number" name="textfield6" onblur="naruto(this.value)" />
+
+
+
+<FORM>
+<script language="JavaScript">
+function total(co,hipotenusa){
+	
+	var letra=1;
+	var gh=co*letra;
+	var total2=Math.sqrt(gh);
+
+	var ca=hipotenusa-co;
+	var total=Math.sqrt(ca);
+	if(hipotenusa==0){
+		alert("La Hipotenusa Esta En Cero O Tiene Un Dato Erroneo");
+	}
+	else
+	{
+	if(co>=hipotenusa){
+		var gh2=Math.sqrt(hipotenusa);
+	
+		if((gh2==0)){
+				alert("Solo Debe Ingresar NumerosJ");
+		}
+		else
+		{alert("La Hipotenusa Es Igual O Menor Que El Cateto Adyacente");
+			
+		}
+		}
+		else
+		{
+			
+	if((isNaN(total))||(total2==0))
+	{
+	alert("El Cateto Adyacente Esta En Cero O Tiene Un Dato Erroneo");
+	}
+	else
+	{
+	alert("El Valor Del Cateto Opuesto Es: "+total);
+	
+	}
+		}
+	
+	}
+
+	
+}
+
+</script>
+<input name="button2" type="button" onclick="total(nap,ed)"value="Calcular Cateto Opuesto" />
+</FORM>	
+ 	
+	</div>
+	<div data-role="footer">
+		<h4>Shippuden</h4>
+	</div>
+</div>
+
+</body>
+</html>
